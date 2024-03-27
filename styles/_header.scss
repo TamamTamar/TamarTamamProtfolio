@@ -1,0 +1,26 @@
+#header {
+    width: 100vw;
+    top: 0;
+    right: 0;
+    margin-bottom: 1em;
+    background-color: #fff;
+}
+
+#container-header {
+    background: $bgcColor 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 4em;
+}
+
+#container-header h1 {
+    font: normal normal 800 80px/118px 'Heebo';
+    text-align: center;
+    direction: rtl;
+
+
+}
+
+#container-header p {
+    font: normal normal 500 20px/30px 'Heebo';
+    color: $headingColor;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+
+
+}
+
+.tictactoe {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.tictactoe .cell {
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    background-color: lightpink;
+    width: calc(33% - 6px);
+    height: calc(33% - 6px);
+    margin: 3px;
+    border-radius: 10px;
+}
+
+#message {
+    display: none;
+    position: fixed;
+    /*     width: 450px;
+    height: 200px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    padding: 2% 10%;
+    border: 2px solid black;
+    z-index: 100;
+    width: 40%;
+    height: 20%;
+}
+
+#message .ParaMessage {
+    text-align: center;
+    font-size: 2em;
+}
+
+#message .closeButton {
+    width: 100%;
+    background-color: lightpink;
+    height: 40%;
+    margin-top: 5%;
+}

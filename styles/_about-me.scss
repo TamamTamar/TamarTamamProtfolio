@@ -1,0 +1,39 @@
+#about-me {
+    text-align: center;
+    direction: rtl;
+    margin: 4em;
+
+}
+
+
+#about-me h2 {
+    text-align: center;
+    font: normal normal 600 60px/95px 'Heebo';
+    color: $headingColor;
+}
+
+#about-me p {
+    font: normal normal 300 14px/20px 'Heebo';
+    margin-bottom: 2em;
+    color: $headingColor;
+}
+
+.projects-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'heebo';
+    color: $headingColor;
+    background-color: $bgcColor;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.projects-button:hover {
+    background-color: purple;
+    color: beige;
+    text-decoration: none;
+}

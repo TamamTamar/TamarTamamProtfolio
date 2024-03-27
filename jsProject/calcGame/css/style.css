@@ -1,0 +1,117 @@
+:root {
+    --margin: 50px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background-image: url("../images/bgcCalc.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .game-title h1 {
+    font-size: xx-large;
+  }
+  
+  @media (max-width: 768px) {
+    .game-title h1 {
+      font-size: 20px;
+    }
+  }
+  
+  .game-container {
+    background-color: #FADFCE;
+    box-shadow: 1px 1px 10px #00000099;
+    height: 0px;
+    min-height: 40%;
+    max-width: 80%;
+    aspect-ratio: 16/9;
+    margin-top: var(--margin);
+    margin-left: var(--margin);
+  }
+  
+  .game-title {
+    text-align: center;
+    background-color: #eff3e4;
+    color: #5e848c;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .exercise-form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    margin-top: var(--margin);
+    width: 60%;
+   
+  }
+  .exercise-form p {
+    color: #5e848c;
+    font-size: x-large;
+  }
+  .currectMessage{
+    color: green;
+  }
+  .p,
+  .poitns {
+    font-size: x-large;
+    color: #5e848c;
+  }
+  .currectMessage,
+  .uncurrectMessage {
+    font-size: x-large;
+    margin: 10px;
+   
+  }
+  .currectMessage{
+    color: green;
+  }
+  .uncurrectMessage{
+    color: red;
+  }
+  button{
+    width: 20%;
+    height: 30px;
+    background-color: #5e848c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  .input-result{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color:#eff3e4 ;
+    color: #5e848c;
+    font-size: x-large;
+    text-align: center;
+  }
+  .reset-btn{
+   margin: 15px;
+  }
+  

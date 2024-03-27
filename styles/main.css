@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#hamburger {
+  display: none;
+  font-size: 30px;
+  color: purple;
+  padding: 10px;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: purple;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  line-height: 1.7;
+  font: normal normal bold 20px/32px Heebo;
+}
+
+#container-Links {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-img img {
+  width: 50px;
+}
+
+#header {
+  width: 100vw;
+  top: 0;
+  right: 0;
+  margin-bottom: 1em;
+  background-color: #fff;
+}
+
+#container-header {
+  background: rgba(97, 67, 187, 0.3882352941) 0% 0% no-repeat padding-box;
+  text-align: center;
+  padding: 4em;
+}
+
+#container-header h1 {
+  font: normal normal 800 80px/118px "Heebo";
+  text-align: center;
+  direction: rtl;
+}
+
+#container-header p {
+  font: normal normal 500 20px/30px "Heebo";
+  color: #3A3A3A;
+}
+
+#about-me {
+  text-align: center;
+  direction: rtl;
+  margin: 4em;
+}
+
+#about-me h2 {
+  text-align: center;
+  font: normal normal 600 60px/95px "Heebo";
+  color: #3A3A3A;
+}
+
+#about-me p {
+  font: normal normal 300 14px/20px "Heebo";
+  margin-bottom: 2em;
+  color: #3A3A3A;
+}
+
+.projects-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "heebo";
+  color: #3A3A3A;
+  background-color: rgba(97, 67, 187, 0.3882352941);
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  background-color: purple;
+  color: beige;
+  text-decoration: none;
+}
+
+.gallery {
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.gallery h2 {
+  text-align: center;
+  font: normal normal 600 60px/95px "Heebo";
+  color: #3A3A3A;
+  padding-top: 1em;
+}
+
+.container-gallery {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 65vw;
+}
+
+.card {
+  box-shadow: 3px 3px 16px rgba(103, 103, 103, 0.1333333333);
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  margin: 2em;
+}
+
+.card .bg-image {
+  width: 100%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+
+#bg-image1 {
+  background-image: url(../image/project1.png);
+}
+
+#bg-image2 {
+  background-image: url(../image/project2.png);
+}
+
+#bg-image3 {
+  background-image: url(../image/project3.png);
+}
+
+#bg-image4 {
+  background-image: url(../image/project4.png);
+}
+
+#bg-image5 {
+  background-image: url(../image/project5.png);
+}
+
+#bg-image6 {
+  background-image: url(../image/project6.png);
+}
+
+#bg-image7 {
+  background-image: url(../image/calcGame.png);
+}
+
+#bg-image8 {
+  background-image: url(../image/countries.png);
+}
+
+#bg-image9 {
+  background-image: url(../image/hungman.png);
+}
+
+#bg-image10 {
+  background-image: url(../image/starWars.png);
+}
+
+#bg-image11 {
+  background-image: url(../image/todo.png);
+}
+
+#bg-image12 {
+  background-image: url(../image/x,o.png);
+}
+
+#bg-image13 {
+  background-image: url(../image/project13.png);
+}
+
+.card h3 {
+  font: normal normal 400 18px/28px "Heebo";
+  padding-top: 1.5em;
+}
+
+.card p {
+  font: normal normal 300 14px/20px "Heebo";
+  padding: 0 2em 2em 2em;
+}
+
+#contact {
+  background-color: rgba(97, 67, 187, 0.3882352941);
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+}
+
+.container-form {
+  padding: 40px;
+  margin-right: 120px;
+  text-align: center;
+}
+
+.container-form h2 {
+  color: #3A3A3A;
+  font: normal normal 600 30px/47px "Heebo";
+}
+
+.container-form p {
+  color: #3A3A3A;
+  font: normal normal 300 18px/22px "Heebo";
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  text-align: right;
+}
+
+#text {
+  height: 100px;
+}
+
+.form-control label {
+  font: normal normal bold 16px/24px Heebo;
+  color: purple;
+}
+
+.form-control input {
+  width: 418px;
+  height: 50px;
+  /* UI Properties */
+  border: none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-bottom: 3px solid purple;
+}
+
+.form-control input[type=submit] {
+  width: 166px;
+  height: 50px;
+  background: purple 0% 0% no-repeat padding-box;
+  color: azure;
+  font: normal normal bold 22px/30px Heebo;
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  align-items: center;
+}
+
+.form-control input[type=submit]:hover {
+  background-color: #fff;
+  color: purple;
+  text-decoration: none;
+}
+
+.container-contactMe {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  justify-content: space-evenly;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: purple;
+}
+
+#container-footer {
+  background-color: #171616;
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container-footer p {
+  padding: 2em;
+}
+
+@media (max-width: 1000px) {
+  #container-header h1 {
+    font: normal normal 900 46px/67px Heebo;
+  }
+  #container-header p {
+    font: normal normal 500 15px/25px Heebo;
+  }
+  #about-me h2 {
+    font: normal normal 900 25px/37px Heebo;
+  }
+  #gallery h2 {
+    font: normal normal 900 25px/37px Heebo;
+  }
+  #container-gallery {
+    width: 100vw;
+  }
+  .container-form {
+    width: 80vw;
+    padding: 20px;
+    margin-right: 0;
+    text-align: right;
+  }
+  .container-form h2 {
+    color: #3A3A3A;
+    font: normal normal 900 25px/37px Heebo;
+  }
+  .container-form p {
+    color: #3A3A3A;
+    font: normal normal normal 15px/22px Heebo;
+  }
+  #text {
+    height: 57px;
+  }
+  .form-control label {
+    font: normal normal bold 12px/18px Heebo;
+  }
+  .form-control input {
+    width: 310px;
+    height: 28px;
+  }
+  .form-control input[type=submit] {
+    width: 94px;
+    height: 28px;
+    font: normal normal bold 12px/16px Heebo;
+    letter-spacing: 0.18px;
+  }
+  .icon {
+    font-size: 18px;
+  }
+  #hamburger {
+    display: block;
+  }
+  input[type=checkbox]:checked ~ #navbar-links {
+    display: block;
+  }
+  nav {
+    flex-direction: column;
+    padding-top: 0;
+    align-items: start;
+  }
+  #navbar-links {
+    display: none;
+  }
+  nav ul {
+    display: block;
+    margin-right: 30px;
+  }
+  nav img {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

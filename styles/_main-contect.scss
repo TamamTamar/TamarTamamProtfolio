@@ -1,0 +1,96 @@
+.gallery {
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.gallery h2 {
+    text-align: center;
+    font: normal normal 600 60px/95px 'Heebo';
+    color: $headingColor;
+    padding-top: 1em;
+
+}
+
+.container-gallery {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65vw;
+
+}
+
+.card {
+    box-shadow: 3px 3px 16px #67676722;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 2em;
+}
+
+.card .bg-image {
+    width: 100%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+#bg-image1 {
+    background-image: url(../image/project1.png);
+}
+
+#bg-image2 {
+    background-image: url(../image/project2.png);
+}
+
+#bg-image3 {
+    background-image: url(../image/project3.png);
+}
+
+#bg-image4 {
+    background-image: url(../image/project4.png);
+}
+
+#bg-image5 {
+    background-image: url(../image/project5.png);
+}
+
+#bg-image6 {
+    background-image: url(../image/project6.png);
+}
+#bg-image7 {
+    background-image: url(../image/calcGame.png);
+}
+#bg-image8 {
+    background-image: url(../image/countries.png);
+}
+#bg-image9 {
+    background-image: url(../image/hungman.png);
+}
+#bg-image10 {
+    background-image: url(../image/starWars.png);
+}
+#bg-image11 {
+    background-image: url(../image/todo.png);
+}
+#bg-image12 {
+    background-image: url(../image/x,o.png);
+}
+#bg-image13 {
+    background-image: url(../image/project13.png);
+
+}
+.card h3 {
+    font: normal normal 400 18px/28px 'Heebo';
+    padding-top: 1.5em;
+}
+
+.card p {
+    font: normal normal 300 14px/20px 'Heebo';
+    padding: 0 2em 2em 2em;
+}

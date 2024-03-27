@@ -1,0 +1,64 @@
+nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100px;
+    direction: rtl;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    font-size: 30px;
+    color: purple;
+    padding: 10px;
+    text-align: right;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    line-height: 1.7;
+    font: normal normal bold 20px/32px Heebo;
+}
+
+#container-Links {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.container-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-img img {
+    width: 50px;
+
+}
