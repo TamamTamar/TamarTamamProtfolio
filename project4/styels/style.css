@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(../styels/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    direction: rtl;
+
+}
+
+#container-contect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 282px;
+}
+
+#container-contect h2 {
+    font: normal normal bold 86px/113px Assistant;
+    color: #D3E10E;
+}
+
+#container-contect p {
+    font: normal normal normal 20px/26px Assistant;
+    color: #F9F9F9;
+    margin-top: 23px;
+
+}
+
+.container-form {
+    align-items: center;
+    margin-top: 350px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-right: 30px;
+    text-align: right;
+
+}
+
+.form-control label {
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+}
+
+.form-control input {
+    width: 418px;
+    height: 50px;
+
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: #FFFFFF;
+    border-bottom: 3px solid #D3E10E;
+
+}
+
+.form-control input[type=submit] {
+    width: 166px;
+    height: 50px;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    color: #011560;
+    font: normal normal bold 22px/30px Assistant;
+    letter-spacing: 0.33px;
+    margin-top: 23px;
+
+}
+
+@media screen and (max-width:735px) {
+    body {
+        background-image: url(../styels/smallBg.png);
+        background-size: contain;
+
+    }
+
+    #container-contect h2 {
+        display: none;
+    }
+
+    #container-contect p {
+        display: none;
+    }
+
+    #form {
+
+        flex-direction: column;
+    }
+
+    .container-form {
+
+        margin-top: 100px;
+    }
+}
+
+.form-control input {
+    width: 286px;
+    height: 34px;
+
+}
+
+.form-control input[type=submit] {
+    width: 286px;
+    height: 34px;
+    font: normal normal bold 14px/19px Assistant;
+    letter-spacing: 0.21px;
+
+}
+
+@media (min-width:736px) and (max-width:1670px) {
+    #container-contect h2 {
+        font: normal normal bold 56px/75px Assistant;
+
+    }
+
+    #container-contect p {
+        font: normal normal normal 14px/20px Assistant;
+
+    }
+
+    #container-contect {
+        margin-top: 200px;
+    }
+
+    .container-form {
+        margin-top: 270px;
+    }
+}
